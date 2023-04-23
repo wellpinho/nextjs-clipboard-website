@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { BtnLightBlue, BtnStrongCyan } from "../buttons";
 
 export default function Header() {
     return (
@@ -27,22 +28,8 @@ export default function Header() {
                     md:space-y-0
                     md:space-x-4
                 ">
-                    <a href="#" className="
-                    p-4 px-8 
-                    rounded-full 
-                    shadow-lg 
-                    bg-strongCyan 
-                    duration-200 
-                    hover:opacity-80
-                ">Download for IOS</a>
-                    <a href="#" className="
-                    p-4 px-8 
-                    rounded-full 
-                    shadow-lg 
-                    bg-lightBlue
-                    duration-200 
-                    hover:opacity-80
-                ">Download for Mac</a>
+                    <BtnStrongCyan title="Download for IOS" />
+                    <BtnLightBlue title="Download for Mac" />
                 </div>
             </div>
         </section>
