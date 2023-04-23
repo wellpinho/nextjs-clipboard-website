@@ -4,6 +4,7 @@ import Snippets from "./components/snippets/intex";
 import Features from "./components/features";
 import Anywhere from "./components/anywhere";
 import Supercharge from "./components/supercharge";
+import References from "./components/references";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Features />
         <Anywhere />
         <Supercharge />
+        <References />
       </main>
     </>
   )
