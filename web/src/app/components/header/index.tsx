@@ -4,12 +4,10 @@ import { BtnLightBlue, BtnStrongCyan } from "../buttons";
 export default function Header() {
     return (
         <section id="hero">
-            <div className="max-w-6xl mx-auto text-center mb-40 px-10 pt-16">
+            <div className="section-container mb-40 px-10 pt-16">
                 <Image src="/images/logo.svg" alt="" width={125} height={125} className="mx-auto my-16" />
 
-                <h3 className="mb-8 text-4xl font-bold text-darkGrayIsBlue md:text-5xl">
-                    A history of everything you copy
-                </h3>
+                <h3>A history of everything you copy</h3>
 
                 <p className="max-w-3xl mx-auto mb-10 text-2xl text-grayIsBlue">
                     Clipboard allows you to back and organize everyhing you copy.
