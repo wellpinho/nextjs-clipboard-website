@@ -3,8 +3,7 @@ export default function Snippets() {
         <section id="snippets">
             <div className="
                 section-container
-                my-20 
-                px-10
+                my-20
             ">
                 <h3>Keep track of your snippets</h3>
                 <p className="
