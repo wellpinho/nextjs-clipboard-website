@@ -5,6 +5,7 @@ import Features from "./components/features";
 import Anywhere from "./components/anywhere";
 import Supercharge from "./components/supercharge";
 import References from "./components/references";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Anywhere />
         <Supercharge />
         <References />
+        <Footer />
       </main>
     </>
   )

@@ -16,10 +16,7 @@ export default function Features() {
     }
     return (
         <section id="features">
-            <div className="
-                section-container
-                my-20
-            ">
+            <div className="section-container my-20">
                 <div className="flex flex-col md:flex-row md:space-x-32">
                     <div className="relative md:w-1/2">
                         <Image 

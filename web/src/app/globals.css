@@ -2,15 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
 /* when our classes repeat use custom classes for that */
 .section-container {
-  @apply max-w-6xl mx-auto text-center px-10;
+  @apply mx-auto text-center px-10;
 }
 
 @layer base {
@@ -29,8 +23,43 @@
   }
 }
 
+.button-box {
+  @apply        
+    flex 
+    flex-col 
+    justify-center 
+    w-full 
+    space-y-6 
+    text-xl 
+    text-lightWhite
+    md:flex-row 
+    md:space-y-0
+    md:space-x-4
+}
+
 .button-container {
-  @apply p-4 px-8 rounded-full shadow-lg duration-200 hover:opacity-80;
+  @apply p-4 px-8 rounded-full shadow-lg duration-200 hover:opacity-80 text-lightWhite;
+}
+
+.footer-card {
+  @apply                             
+    flex 
+    flex-col 
+    space-y-4 
+    mb-4
+    md:flex-row 
+    md:ml-24 
+    md:space-x-24
+    md:space-y-0
+}
+
+.footer-card-content {
+  @apply flex flex-col space-y-4 text-center md:text-left cursor-pointer
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%)
 }
 
 @media (prefers-color-scheme: dark) {
