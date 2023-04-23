@@ -8,8 +8,7 @@ export default function Header() {
                 <Image src="/images/logo.svg" alt="" width={125} height={125} className="mx-auto my-16" />
 
                 <h3>A history of everything you copy</h3>
-
-                <p className="max-w-3xl mx-auto mb-10 text-2xl text-grayIsBlue">
+                <p>
                     Clipboard allows you to back and organize everyhing you copy.
                     Instantly access your clipboard on all your devices.
                 </p>

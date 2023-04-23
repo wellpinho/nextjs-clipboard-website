@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "./components/header";
 import Snippets from "./components/snippets/intex";
 import Features from "./components/features";
+import Anywhere from "./components/anywhere";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <main>
         <Snippets />
         <Features />
+        <Anywhere />
       </main>
     </>
   )

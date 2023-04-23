@@ -11,14 +11,13 @@ export default function Features() {
             <>
                 <h5 className="
                 mb-2
-                mt-4
                 text-2xl 
                 font-bold 
                 text-darkGrayIsBlue
                 ">
                     { title }
                 </h5>
-                <p className="max-w-md text-grayIsBlue">{ description }</p>
+                <p>{ description }</p>
             </>
         )
     }

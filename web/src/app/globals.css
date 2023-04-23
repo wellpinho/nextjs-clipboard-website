@@ -19,6 +19,12 @@
   }
 }
 
+@layer base {
+  p {
+    @apply max-w-3xl mx-auto mb-10 text-xl leading-9 text-grayIsBlue;
+  }
+}
+
 .button-container {
   @apply p-4 px-8 rounded-full shadow-lg duration-200 hover:opacity-80;
 }
