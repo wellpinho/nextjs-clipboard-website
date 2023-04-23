@@ -9,14 +9,7 @@ export default function Features() {
     const ComponentItem = ({ title, description }: IComponent) => {
         return (
             <>
-                <h5 className="
-                mb-2
-                text-2xl 
-                font-bold 
-                text-darkGrayIsBlue
-                ">
-                    { title }
-                </h5>
+                <h5>{ title }</h5>
                 <p>{ description }</p>
             </>
         )
