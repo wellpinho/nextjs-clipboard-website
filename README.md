@@ -1,10 +1,10 @@
 # nextjs-clipboard-website
 Website created with Nextjs and Tailwindcss
 
-## header pc
-![header](./pge01.png)
+## If you like my work, donate a coffee
+[DONATE PAYPAL](https://www.paypal.com/donate/?hosted_button_id=DPS2FRCH25ZMJ)
 
-## header mobile
+![header](./pge01.png)
 ![](./page02.png)
 
 ## Tool
@@ -18,9 +18,6 @@ clone this repo:
 3. ```pnpm i```
 4. ```pnpm dev```
 5. acccess the project: http://localhost:3000
-
-## If you like my work, donate a coffee
-[PAYPAL](https://www.paypal.com/donate/?hosted_button_id=DPS2FRCH25ZMJ)
 
 ## Created by Wellington Pinho
 [Linkedin](https://www.linkedin.com/in/wellpinho/)
